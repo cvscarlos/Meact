@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import ResponsiveDrawer from './ResponsiveDrawer.js';
+import Header from './Header'
 
 function App() {
   return (
     <div>
-      <ResponsiveDrawer />
+      <Header />
     </div>
   );
 }
